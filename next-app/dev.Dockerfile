@@ -11,5 +11,7 @@ COPY src ./src
 COPY public ./public
 COPY next.config.js .
 COPY tsconfig.json .
+COPY tailwind.config.js .
+COPY postcss.config.js .
 
 CMD yarn dev
