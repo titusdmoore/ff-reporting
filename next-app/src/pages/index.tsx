@@ -1,12 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import styles from '../styles/Home.module.css';
 import Sidebar from '../components/sidebar';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="flex flex-col min-h-screen px-2 justify-center items-center">
       <Head>
         <title>Incident Reporting System</title>
         <link rel="icon" href="/favicon.ico" />
